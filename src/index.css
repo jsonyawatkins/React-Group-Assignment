@@ -5,9 +5,132 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./backgroung.jpg);
+  width: 100%;
+ height: 100%;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.cards {
+  display: flex;
+  justify-self: center;
+  margin: 10px;
+  min-height: 200px;
+  max-width: 22rem;
+}
+
+.aboutus-cards {
+  min-height: 200px;
+  max-width: 20rem !important;
+}
+
+#footerContainer {
+  margin-top: 5%;
+}
+
+.footer {
+  padding: 1.0rem;
+  background-color: #EAB836;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.descButton {
+  color: #fff;
+  border: none;
+  padding-right: 3%;
+  font-weight: bold;
+  font-family: 'Pangolin', cursive;
+  background-color:#1e8046;
+  font-size: 26px;
+  transition: 0.5s;
+}
+
+.descButton:hover {
+  background-color: #024d21;
+  font-size: 32px;
+  transition: 0.5s;
+}
+
+.aboutpage-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.navBar {
+  background-color: #EAB836;
+  font-family: 'Pangolin', cursive;
+}
+
+.navBarHome {
+  font-size: 46px !important;
+  width: 10%
+}
+
+.navBarLinks {
+  font-size: 28px;
+  width: 90%;
+  justify-content: center;
+}
+
+.productLink {
+  margin-right: 50px;
+}
+
+.aboutLink {
+  margin-right: 50px;
+}
+
+.App img{
+  height: 293px;
+  width: 800px;
+}
+
+.App {
+  background: rgba(2, 77, 33, .6);
+}
+
+.HomeTitle {
+  font-family: 'Pangolin', cursive;
+  font-size: 100px;
+  color: white;
+}
+
+.HomeText{
+  font-size: 50px;
+  color: white;
+}
+
+.AboutHeader, .ProductHeader {
+  color: white;
+  background: rgba(2, 77, 33, .6);
+  font-family: 'Pangolin', cursive;
+  font-size: 60px !important;
+  margin-top: 20px;
+}
+
